@@ -39,7 +39,7 @@ body {
   flex-grow: 1;
 } */
 
-button {
+.button button {
   background-color: #3882f6;
   padding: 8px 32px;
   border-radius: 4px;
@@ -102,7 +102,7 @@ img {
 }
 .container-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
   flex-shrink: 1;
 
@@ -146,4 +146,49 @@ img {
   font-weight: bold;
   display: flex;
   justify-content: end;
+}
+.bottom-container {
+  display: flex;
+  padding: 50px 100px;
+}
+.signup {
+  display: flex;
+  flex: 1;
+  background-color: #3882f6;
+  border-radius: 8px;
+  align-items: center;
+}
+.text-4 {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px;
+}
+.bottom-heading {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.bottom-text {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+.button-2 {
+  display: flex;
+  flex-shrink: 0;
+
+  padding: 30px 100px;
+  height: auto;
+}
+.button-2 button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 5px 20px;
 }
