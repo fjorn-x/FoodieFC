@@ -149,7 +149,7 @@ img {
 }
 .bottom-container {
   display: flex;
-  padding: 50px 100px;
+  padding: 100px 100px;
 }
 .signup {
   display: flex;
@@ -157,12 +157,13 @@ img {
   background-color: #3882f6;
   border-radius: 8px;
   align-items: center;
+  min-height: 0;
 }
 .text-4 {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  padding: 30px 100px;
+  padding: 30px 100px 30px 90px;
 }
 .bottom-heading {
   font-size: 22px;
@@ -191,4 +192,13 @@ img {
   border-radius: 8px;
   color: white;
   padding: 5px 20px;
+}
+.footer {
+  padding: 30px 100px;
+  font-size: 15px;
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
