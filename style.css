@@ -2,6 +2,7 @@ body {
   height: 100vh;
   padding: 0px;
   margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .head-container {
   background-color: #1f2937;
@@ -18,7 +19,7 @@ body {
 .content-1 {
   display: flex;
   flex-direction: column;
-  flex: 1;
+  flex: 2;
 }
 .content-2 {
   flex-shrink: 1;
